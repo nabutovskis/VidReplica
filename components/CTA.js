@@ -1,5 +1,6 @@
 import Image from "next/image";
 import config from "@/config";
+import ButtonLead from "@/components/ButtonLead";
 
 const CTA = () => {
   return (
@@ -20,10 +21,10 @@ const CTA = () => {
             Don&apos;t waste time integrating APIs or designing a pricing
             section...
           </p>
-
-          <button className="btn btn-primary btn-wide">
-            Get {config.appName}
-          </button>
+		<ButtonLead />
+          {/* <button className="btn btn-primary btn-wide"> */}
+           {/* Get {config.appName} */}
+          {/* </button> */}
         </div>
       </div>
     </section>
